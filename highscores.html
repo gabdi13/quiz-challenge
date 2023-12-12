@@ -1,0 +1,27 @@
+<!-- highscores.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highscores</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Highscores</h1>
+        <ol id="highscores"></ol>
+
+        <div id="saveScoreSection" style="display: none;">
+            <label for="initials">Enter Initials:</label>
+            <input type="text" id="initials" placeholder="Enter Initials" />
+            <button onclick="saveScore()">Save Score</button>
+        </div>
+
+        <a href="index.html"><button>Go Back</button></a>
+        <button id="clear" onclick="clearHighScores()">Clear Highscores</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
