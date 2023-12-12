@@ -59,7 +59,7 @@ function checkAnswer(selected) {
             "<button onclick='saveScore()'>Save Score</button>" +
             "<ol id='highscores'></ol>";
 
-        displayHighScores(); // Add this line to display high scores
+        displayHighScores(); 
     }
 }
 
